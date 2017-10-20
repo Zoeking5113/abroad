@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "tabBar": {
+    "color": "#a6a4a4",
+    "selectedColor": "#ff4c26",
+    "borderStyle": "#bfbfbf",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "申请",
+      "iconPath": "pages/images/home.png",
+      "selectedIconPath": "pages/images/homeC.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "院校",
+      "iconPath": "pages/images/building.png",
+      "selectedIconPath": "pages/images/buildingC.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "pages/images/talk.png",
+      "selectedIconPath": "pages/images/talkC.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "pages/images/people.png",
+      "selectedIconPath": "pages/images/peopleC.png"
+    }
+    
+    ]
+  }
+}
