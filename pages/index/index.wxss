@@ -1,0 +1,187 @@
+.nav-bar{
+  background-color: #25394a;
+  display: flex;
+  flex-direction: row;
+  justify-content:   space-between;
+  align-items: center;
+  height: 35px;
+  line-height: 35px;
+  padding: 3px 10px 0px 10px;
+}
+.time{
+  padding: 4px 6px;
+  background: url(http://192.168.1.153/pages/images/time-bg.png) no-repeat;
+  font-size: 10px;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  background-size: 37px 33px;
+}
+.today{
+  font-size: 16px;
+  color: white;
+  margin-left: 4px;
+  font-weight: bold;
+}
+.nav-word{
+  color: white;
+  font-size: 14px;
+  background-color: #7c8892;
+  border-radius: 8px;
+  padding: 3px 8px;
+  height: 20px;
+  line-height: 20px;
+  width: calc(100% - 112px);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content:   space-between;
+  align-items: center;
+}
+.button button{
+  width: 25%;
+  border-radius: 0px;
+  padding: 8px 0;
+}
+.button button view{
+  background-color: white;
+  height: 25px;
+  line-height: 25px;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+.button button view image{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+}
+.button button:nth-child(1){
+   background-color: #5b90dd;
+   border: #5b90dd 1px solid;
+   border-radius: 0 0 0 5px;
+}
+.button button:nth-child(1) view{
+    border-radius: 5px 5px 5px 10px;
+    color: #5b90dd;
+}
+.button button:nth-child(2){
+  background-color: #4fb180;
+  border: 1px solid #4fb180;
+}
+.button button:nth-child(2) view{
+    border-radius: 5px;
+    color:  #4fb180;
+}
+.button button:nth-child(3){
+  background-color: #e87750;
+  border: 1px solid #e87750;
+}
+.button button:nth-child(3) view{
+    border-radius: 5px;
+    color:  #e87750;
+}
+.button button:nth-child(4){
+  background-color: #787ede;
+  border: 1px solid #787ede;
+  border-radius: 0 0 5px 0;
+}
+.button button:nth-child(4) view{
+    border-radius: 5px 5px 10px 5px;
+    color:  #787ede;
+}
+.button button::after{
+  border: 0;
+}
+.line{
+  background-color: #5b90dd;
+  height: 1px;
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.line2{
+  background-color: #4fb180;
+  height: 1px;
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.line view{
+  width: 20%;
+  height: 3px;
+  background-color: #5b90dd;
+}
+.line2 view{
+  width: 20%;
+  height: 3px;
+  background-color: #4fb180;
+}
+.titles{
+  display: flex;
+  flex-direction: row;
+  justify-content:   space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+.titles2{
+  display: flex;
+  flex-direction: row;
+  justify-content:   space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+.titles-left{
+  color: #012f71;
+  font-weight: bold;
+  font-size: 18px;
+}
+.titles-left2{
+  color: #02572c;
+  font-weight: bold;
+  font-size: 18px;
+}
+.titles-left text{
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 3px;
+}
+.titles-left2 text{
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 3px;
+}
+.titles-right{
+  color: #999999;
+  font-size: 14px;
+}
+.hot-college{
+  padding: 3px 10px;
+}
+.hot-college image{
+  width: 100%;
+  height: 18vh;
+}
+.hotReading{
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+}
+.hotReading view{
+  width: calc(50% - 20px);
+  float: left;
+ padding: 5px 10px;
+}
+.hotReading view image{
+  width: 100%;
+  height: 100px;
+}

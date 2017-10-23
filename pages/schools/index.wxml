@@ -1,0 +1,24 @@
+<view class='nav-bar'>
+  <view class='tab clearfix'>
+    <view class='tab-select {{selected?"selected":"default"}}' bindtap='select'>学院</view>
+    <view class='tab-select {{selected?"default":"selected"}}' bindtap='select1'>专业</view>
+  </view>
+  <icon type='search' size='20' color='white'></icon>
+</view>
+<view class='margin'></view>
+<block wx:for='{{colleges}}' >
+  <view class='school {{selected?"show":"hide"}}'>
+    <image src='{{item.schoolImg}}' mode='aspectFill'></image>
+    <view class='clearfix'>
+      <view class='schoolName'>{{item.schoolName}}</view>
+      <view class='applyNumber'>{{item.applyNumber}}位同学申请</view>
+    </view>
+    <view class='english'>{{item.english}}</view>
+  </view>
+</block>
+<block wx:for='{{major}}'>
+  <view class='majors {{selected?"hide":"show"}}'>
+    <image src='{{item.majorImg}}' mode='aspectFit'></image>
+    <view class='majorName'>{{item.majorName}}</view>
+  </view>
+</block>

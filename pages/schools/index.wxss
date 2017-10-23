@@ -1,0 +1,83 @@
+.nav-bar{
+  background-color: #25394a;
+  text-align: center;
+  padding: 10px 0;
+  position:  fixed;
+  width: 100%;
+  top: 0;
+}
+.nav-bar .tab{
+  color: #ffffff;
+  background-color: #678eaf;
+  margin: 0 auto;
+  font-size: 16px;
+  border-radius: 13px;
+  width: 50%;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.tab-select{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 3px 0;
+}
+.selected{
+  background-color: #4d6c87;
+  border-radius: 13px;
+}
+.nav-bar icon{
+  position: absolute;
+  right: 8px;
+  top:13px;
+}
+.margin{
+  margin-top: 47px;
+}
+.school{
+  padding: 5px;
+}
+.school image{
+  width: 100%;
+  height: 150px;
+}
+.schoolName{
+  float: left;
+  color: #000000;
+  font-size: 15px;
+  padding: 0 5px;
+}
+.applyNumber{
+  float: right;
+  color: #666666;
+  font-size: 14px;
+  padding: 0 5px;
+}
+.english{
+  color: #666666;
+  font-size: 14px;
+  padding: 0 5px;
+}
+.majors{
+  width: 33.33%;
+  padding-top: 20px;
+  float: left;
+}
+.majors image{
+  width: 60%;
+  height: 20vw;
+  margin-left: 20%;
+}
+.majorName{
+  width: 60%;
+  margin-left: 20%;
+  font-size: 12px;
+  text-align: center;
+  color: #050505;
+  height: 32px;
+  line-height:16px;
+}

@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/schools/index"
   ],
   "tabBar": {
     "color": "#a6a4a4",
@@ -13,7 +14,7 @@
       "selectedIconPath": "pages/images/homeC.png"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/schools/index",
       "text": "院校",
       "iconPath": "pages/images/building.png",
       "selectedIconPath": "pages/images/buildingC.png"
@@ -30,7 +31,12 @@
       "iconPath": "pages/images/people.png",
       "selectedIconPath": "pages/images/peopleC.png"
     }
-    
     ]
+  },
+  "window": {
+    "navigationBarTitleText": "留学",
+    "backgroundColor": "white",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
   }
 }

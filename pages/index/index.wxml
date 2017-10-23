@@ -1,0 +1,45 @@
+<view class='nav-bar'>
+  <view class='time'>10/17</view>
+  <view class='today'>今日</view>
+  <view class='nav-word'>顶尖投行、咨询公司、四大会计事务……</view>
+</view>
+<view>
+  <swiper indicator-dots='{{indicatorDots}}' indicator-color='{{indicatorColor}}' indicator-active-color='{{indicatorActiveColor}}' autoplay='{{autoplay}}'>
+    <block wx:for='{{imgUrls}}'>
+      <swiper-item>
+        <image src='{{item}}' class='slide-image'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='button'>
+  <button><view><image src='../images/chooseSchool.png'></image>选校</view></button>
+  <button><view><image src='../images/guide.png'></image>指南</view></button>
+  <button><view><image src='../images/apply.png'></image>申请</view></button>
+  <button><view><image src='../images/plane.png'></image>行前</view> </button>
+</view>
+<view class='line'>
+  <view></view>
+</view>
+<view class='titles'>
+  <view class='titles-left'>热门学院<text>HOT COLLEGE</text></view>
+  <view class='titles-right'>更多</view>
+</view>
+<view class='hot-college' wx:for='{{hotCollege}}'>
+  <image src='{{item}}'></image>
+</view>
+<view class='line2'>
+  <view></view>
+</view>
+<view class='titles2'>
+  <view class='titles-left2'>热门阅读<text>HOT READING</text></view>
+  <view class='titles-right'>更多</view>
+</view>
+<view class='hotReading'>
+  <block wx:for='{{hotReading}}'>
+    <view>
+      <image src='{{item.image}}'></image>
+      <text>{{item.title}}</text>
+    </view>
+  </block>
+</view>
